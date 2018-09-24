@@ -55,5 +55,5 @@ env:
  global:
    # Github Pages
    - GH_REF: github.com/codecly259/codecly259.github.io
-   # Coding Pages
+   # Gitee Pages
    - GI_REF: gitee.com/maxinchun/maxinchun
