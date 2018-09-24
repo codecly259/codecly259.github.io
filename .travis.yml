@@ -39,8 +39,8 @@ after_script:
   # Github Pages
   - git push --quiet "https://${CI_TOKEN}@${GH_REF}" master:master --tags
   # Gitee Pages
-  - git push --force --quiet "https://${GI_TOKEN}@${GI_REF}" master:master
-  - git push --quiet "https://${GI_TOKEN}@${GI_REF}" master:master --tags
+  - git push --force --quiet "https://maxinchun:${GI_TOKEN}@${GI_REF}" master:master
+  - git push --quiet "https://maxinchun:${GI_TOKEN}@${GI_REF}" master:master --tags
 
 
 addons:
